@@ -1,0 +1,56 @@
+* {
+  margin: 0px;
+}
+
+.newCanvas {
+  height: 50vh;
+  width: 600px;
+  background-color: white;
+  border-radius: 10px;
+}
+.mainContainer {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  /* background-image: url("../Images/bcgrnd.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; */
+  /* background-color: green; */
+}
+.innerContainer {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.button {
+  height: 50px;
+  width: 200px;
+  background-color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 5px 10px 5px (255, 225, 255, 0.2);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.button:hover {
+  background-color: black;
+  color: white;
+}
+.button:active {
+  transform: scale(0.95);
+}
+.button-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  /* column-gap: 30px; */
+}
